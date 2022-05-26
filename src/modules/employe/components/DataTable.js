@@ -4,7 +4,7 @@ import data from "../../../jsonFile/data.json";
 
 export function DataTable(props) {
   return (
-    <table className="table" id="datatablesSimple">
+    <table className="table table-bordered" id="datatablesSimple">
       <thead>
         <TableHead name="Name" position="Position"  office="Office" age="Age"   date="Start date" salary="Salary"></TableHead>
       </thead>
